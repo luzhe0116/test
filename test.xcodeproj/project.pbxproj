@@ -15,6 +15,9 @@
 		2E36745A1D49F28F00891B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3674581D49F28F00891B4B /* LaunchScreen.storyboard */; };
 		2E3674651D49F28F00891B4B /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3674641D49F28F00891B4B /* testUITests.m */; };
 		2E3674771D49F5D000891B4B /* 2321ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3674761D49F5D000891B4B /* 2321ViewController.m */; };
+		964942E91D49FDE60059ACEE /* qwreqwerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964942E81D49FDE60059ACEE /* qwreqwerViewController.m */; };
+		964942EC1D4A021F0059ACEE /* yongcheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964942EB1D4A021F0059ACEE /* yongcheViewController.m */; };
+		964942EE1D4A03240059ACEE /* Screen Shot 2016-07-27 at 下午2.44.47.png in Resources */ = {isa = PBXBuildFile; fileRef = 964942ED1D4A03240059ACEE /* Screen Shot 2016-07-27 at 下午2.44.47.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,11 @@
 		2E3674661D49F28F00891B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E3674751D49F5D000891B4B /* 2321ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 2321ViewController.h; sourceTree = "<group>"; };
 		2E3674761D49F5D000891B4B /* 2321ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 2321ViewController.m; sourceTree = "<group>"; };
+		964942E71D49FDE60059ACEE /* qwreqwerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qwreqwerViewController.h; sourceTree = "<group>"; };
+		964942E81D49FDE60059ACEE /* qwreqwerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = qwreqwerViewController.m; sourceTree = "<group>"; };
+		964942EA1D4A021F0059ACEE /* yongcheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yongcheViewController.h; sourceTree = "<group>"; };
+		964942EB1D4A021F0059ACEE /* yongcheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yongcheViewController.m; sourceTree = "<group>"; };
+		964942ED1D4A03240059ACEE /* Screen Shot 2016-07-27 at 下午2.44.47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-07-27 at 下午2.44.47.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,7 @@
 		2E3674491D49F28F00891B4B /* test */ = {
 			isa = PBXGroup;
 			children = (
+				964942E61D49FDD80059ACEE /* qrtqret */,
 				2E36744D1D49F28F00891B4B /* AppDelegate.h */,
 				2E36744E1D49F28F00891B4B /* AppDelegate.m */,
 				2E3674501D49F28F00891B4B /* ViewController.h */,
@@ -114,6 +123,18 @@
 				2E3674661D49F28F00891B4B /* Info.plist */,
 			);
 			path = testUITests;
+			sourceTree = "<group>";
+		};
+		964942E61D49FDD80059ACEE /* qrtqret */ = {
+			isa = PBXGroup;
+			children = (
+				964942ED1D4A03240059ACEE /* Screen Shot 2016-07-27 at 下午2.44.47.png */,
+				964942E71D49FDE60059ACEE /* qwreqwerViewController.h */,
+				964942E81D49FDE60059ACEE /* qwreqwerViewController.m */,
+				964942EA1D4A021F0059ACEE /* yongcheViewController.h */,
+				964942EB1D4A021F0059ACEE /* yongcheViewController.m */,
+			);
+			name = qrtqret;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964942EE1D4A03240059ACEE /* Screen Shot 2016-07-27 at 下午2.44.47.png in Resources */,
 				2E36745A1D49F28F00891B4B /* LaunchScreen.storyboard in Resources */,
 				2E3674571D49F28F00891B4B /* Assets.xcassets in Resources */,
 				2E3674551D49F28F00891B4B /* Main.storyboard in Resources */,
@@ -218,6 +240,8 @@
 			files = (
 				2E3674521D49F28F00891B4B /* ViewController.m in Sources */,
 				2E36744F1D49F28F00891B4B /* AppDelegate.m in Sources */,
+				964942EC1D4A021F0059ACEE /* yongcheViewController.m in Sources */,
+				964942E91D49FDE60059ACEE /* qwreqwerViewController.m in Sources */,
 				2E3674771D49F5D000891B4B /* 2321ViewController.m in Sources */,
 				2E36744C1D49F28F00891B4B /* main.m in Sources */,
 			);
